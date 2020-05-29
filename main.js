@@ -27,12 +27,12 @@ function printPagante (data) {
 function deletePagante() {
   var cestino = $(this);
   var paganteSelezionato = cestino.parent();
-  var id = paganteSelezionato.data('id');
+  var paganteAttr = paganteSelezionato.data('id');
   $.ajax({
     url: "deletePaganti.php",
     method: "POST",
     data: {
-      id: id
+      id: paganteAttr
     },
     success: function () {
       paganteSelezionato.remove();
