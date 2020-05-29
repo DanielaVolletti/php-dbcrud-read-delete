@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  color: darkslateblue;
+  padding: 20px;
+}
+
+.paganti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagante {
+  border: solid 2px black;
+  width: 50%;
+  padding: 20px;
+  background: darkslateblue;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.delete {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+h2 {
+  padding-top: 10px;
+}
